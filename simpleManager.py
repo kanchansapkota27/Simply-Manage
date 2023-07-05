@@ -1,7 +1,7 @@
 import sys,os,glob,shutil,traceback
 from PyQt5 import QtWidgets,QtGui,QtCore
 from PyQt5.QtWidgets import  QApplication,QMainWindow,QFileDialog,QInputDialog,QMessageBox,QTreeWidgetItem
-from main import Ui_MainWindow
+from ui import Ui_MainWindow
 from settings import DefaultSettings,CustomSettings
 
 class MainWindow(QMainWindow):
