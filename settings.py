@@ -13,12 +13,12 @@ class DefaultSettings:
 
 class CustomSettings:
     custom={
-        'videos':['mp4','wmv','flv','mkv','mpeg'],
-        'images':['jpeg','jpg','png','gif','tiff','raw'],
-        'documents':['txt','doc','docx','pdf','pptx','ppt'],
-        'programs':['exe','msi'],
-        'compressed':['zip','rar'],
-        'extras':['apk'],
+        'Videos':['mp4','wmv','flv','mkv','mpeg'],
+        'Images':['jpeg','jpg','png','gif','tiff','raw'],
+        'Documents':['txt','doc','docx','pdf','pptx','ppt'],
+        'Programs':['exe','msi'],
+        'Compressed':['zip','rar'],
+        'Extras':['apk'],
     }
     def save(self):
         if os.path.exists('./config'):
