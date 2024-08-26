@@ -2,3 +2,6 @@ venv
 activate.bat
 settings.pkl
 __pycache__
+build
+dist
+*.spec
